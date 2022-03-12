@@ -1,3 +1,6 @@
+/*====================================
+SECTION:BANNER
+======================================*/
 section#banner{
   background-image: url('./../assets/backgrounds/h_img.jpg');
   background-size: 100% 100%;
@@ -24,11 +27,17 @@ section#banner img#mouse-click{
 }
 
 
+/*====================================
+MEDIA QUERIES
+======================================*/
+/*Extra large devices*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  section#banner img#logo {
+    margin-top: 16.5rem;
+    margin-bottom: 0.6rem;
+  }
 
-
-
-
-
-
-
-
+  section#banner img#mouse-click {
+    margin-top: 11rem;
+  }
+}
