@@ -30,8 +30,20 @@ section#banner img#mouse-click{
 /*====================================
 MEDIA QUERIES
 ======================================*/
+/*Large devices*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /*Section: Banner*/
+  section#banner img#logo {
+    margin-top: 11rem;
+  }
+  section#banner img#mouse-click {
+    margin-top: 6rem;
+  }
+}
+
 /*Extra large devices*/
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
+  /*Section: Banner*/
   section#banner img#logo {
     margin-top: 16.5rem;
     margin-bottom: 0.6rem;
