@@ -31,6 +31,14 @@ section#banner h2{
   margin-bottom: 3.3rem;
 }
 
+/*====================================
+SECTION:SERVICES
+======================================*/
+section#services{
+  background-image: url('./../assets/backgrounds/s_image.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 
 /*====================================
 SECTION:MEDIA QUERIES
