@@ -10,48 +10,63 @@ section#banner{
 }
 
 section#banner img#logo{
-  margin-top: 12rem;
+  margin-top: 13rem;
 }
 
 section#banner h1{
-  line-height: 4.3rem;
+  line-height: 4rem;
   font-size: 2.5rem;
 }
 
 section#banner h2{
   font-size: 1rem;
+  margin-bottom: 3.3rem;
 }
-
-section#banner img#mouse-click{
-  margin-top: 7rem;
-}
-
 
 /*====================================
-MEDIA QUERIES
+SECTION:MEDIA QUERIES
 ======================================*/
-
-/*Large devices*/
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-  /*Section: Banner*/
+/*Small devices like phones*/
+@media screen and (max-width: 575px) {
   section#banner img#logo {
-    margin-top: 10rem;
-    margin-bottom: 0.8rem;
-  }
-  section#banner img#mouse-click {
-    margin-top: 6rem;
-  }
-}
-
-/*Extra large devices*/
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
-  /*Section: Banner*/
-  section#banner img#logo {
-    margin-top: 16.5rem;
-    margin-bottom: 0.6rem;
-  }
-
-  section#banner img#mouse-click {
     margin-top: 11rem;
+    margin-bottom: 2rem;
+  }
+
+  section#banner h1 {
+    line-height: 3rem;
+    font-size: 1.5rem;
+  }
+
+  section#banner h2 {
+    font-size: 0.8rem;
+    margin-bottom: 6rem;
   }
 }
+
+/*Medium devices like tablets*/
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+  section#banner img#logo {
+    margin-top: 24rem;
+    margin-bottom: 1.6rem;
+  }
+    
+  section#banner h1 {
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+
+  section#banner h2 {
+    font-size: 1.5rem;
+    margin-bottom: 6rem;
+  }
+}
+
+
+
+
+
+
+
+
+
