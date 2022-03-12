@@ -48,6 +48,27 @@ section#what-we-do p{
 }
 
 /*====================================
+SECTION:CONTACT US
+======================================*/
+section#contact-us{
+  background-image: url('./../assets/backgrounds/c_image.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+section#contact-us textarea.message-box{
+  height: 15rem;
+}
+
+section#contact-us input.form-control,
+section#contact-us textarea.form-control{
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+
+/*====================================
 SECTION:MEDIA QUERIES
 ======================================*/
 /*Small devices like phones*/
