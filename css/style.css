@@ -41,6 +41,13 @@ section#services{
 }
 
 /*====================================
+SECTION:WHAT WE DO
+======================================*/
+section#what-we-do p{
+  font-size: 0.9rem;
+}
+
+/*====================================
 SECTION:MEDIA QUERIES
 ======================================*/
 /*Small devices like phones*/
