@@ -30,11 +30,13 @@ section#banner img#mouse-click{
 /*====================================
 MEDIA QUERIES
 ======================================*/
+
 /*Large devices*/
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   /*Section: Banner*/
   section#banner img#logo {
-    margin-top: 11rem;
+    margin-top: 10rem;
+    margin-bottom: 0.8rem;
   }
   section#banner img#mouse-click {
     margin-top: 6rem;
