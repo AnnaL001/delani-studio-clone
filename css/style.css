@@ -1,4 +1,12 @@
 /*====================================
+UTILITIES
+======================================*/
+h3.section-title{
+  font-size: 1.5rem;
+}
+
+
+/*====================================
 SECTION:BANNER
 ======================================*/
 section#banner{
@@ -22,6 +30,7 @@ section#banner h2{
   font-size: 1rem;
   margin-bottom: 3.3rem;
 }
+
 
 /*====================================
 SECTION:MEDIA QUERIES
