@@ -9,6 +9,8 @@ This is a web application clone of Delani Studio. It comprises of information ab
 * To get the web application's code on your laptop/computer, navigate to the 'Code' button in the main page of master branch to download the ZIP file or get the link to clone the repoistory.
 * Once on the laptop/computer, you can view or edit the code using a text editor or Integrated Development Environment(IDE).
 * For installation of current versions of dependencies; Bootstrap or JQuery, you can replace the already included Bootstrap or jQuery with the current versions.
+* Otherwise, to view the web application navigate to the link below <br>
+
 ## Dependencies
 * Bootstrap - CSS Framework with predefined styles to speed up development time.
 * jQuery - JavaScript library that allows for DOM Manipulation with less boilerplate code.
