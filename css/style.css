@@ -10,10 +10,22 @@ h3.section-title{
   font-weight: 600;
 }
 
+input.form-control{
+  background-color: transparent;
+}
+
 input.form-control:focus,
 textarea.form-control:focus {
   border-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.6);
+}
+
+.form-floating>.form-control:-webkit-autofill~label{
+  color: rgb(33, 37, 41) !important;
+}
+
+.form-floating>.form-control:not(:-moz-placeholder-shown)~label {
+  color: rgb(33, 37, 41) !important;
 }
 
 p{
