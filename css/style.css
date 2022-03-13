@@ -1,6 +1,10 @@
 /*====================================
 UTILITIES
 ======================================*/
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
 h3.section-title{
   font-size: 1.5rem;
 }
