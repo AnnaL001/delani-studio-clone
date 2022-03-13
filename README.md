@@ -2,7 +2,7 @@
 #### A web application clone of Delani Studio,
 #### By **Lynn Nyangon**
 ## Description
-This is a web application clone of Delani Studio. It comprises of information about the company in the about us section, services offered and a detailed description of the each, work/projects done by the company, a contact us form and social media accounts' links for interested parties to reach out to the company. In addition to that, there's form validation and tracking of messages sent by interested parties via the contact us form, using Mailchimp.
+This is a web application clone of Delani Studio. It comprises of information about the company, services offered and a detailed description of the each, work/projects done by the company, a contact us form and social media accounts' links for interested parties to reach out to the company. In addition to that, there's form validation and tracking of messages sent by interested parties via the contact us form, using Mailchimp.
 ## Setup/Installation Requirements
 * Using a mobile device/laptop ensure you have access to internet connection.
 * To get the web application's code in your GitHub repository, you can fork the repository via the 'Fork' button in the main page of the master branch.
