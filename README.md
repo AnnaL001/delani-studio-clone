@@ -18,6 +18,7 @@ A web application clone of Delani Studio that comprises of information about the
 - Once on the laptop/computer, you can view or edit the code using a text editor or Integrated Development Environment(IDE).
 - For installation of current versions of dependencies; Bootstrap or JQuery, you can replace the already included Bootstrap or jQuery with the current versions.
 - Otherwise, to view the web application navigate to the link below <br>
+https://annal001.github.io/delani-studio-clone/
 
 ## Dependencies
 
