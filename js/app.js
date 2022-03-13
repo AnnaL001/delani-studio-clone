@@ -85,3 +85,11 @@ $("div#project-restaurant-website").hover(function(){
 function(){
   $("div#project-name-8").toggle(300);
 });
+
+
+// Initialize tooltip according to Bootstrap documentation
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+});
+
