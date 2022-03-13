@@ -41,18 +41,6 @@ p{
 /*====================================
 SECTION:BANNER
 ======================================*/
-section#banner{
-  background-image: url('./../assets/backgrounds/h_img.jpg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 100vh;
-  text-align: center;
-}
-
-section#banner img#logo{
-  margin-top: 12.8rem;
-}
-
 section#banner h1{
   line-height: 4rem;
   font-size: 2.5rem;
@@ -61,9 +49,8 @@ section#banner h1{
 
 section#banner h2{
   font-size: 1rem;
-  margin-bottom: 3.3rem;
-  font-weight: 500;
-  text-shadow: 1rem 1rem rgba(255, 255, 255, 0);
+  font-weight: 600;
+  text-shadow: 2.5rem 2.5rem rgba(255, 255, 255, 0);
 }
 
 
@@ -139,47 +126,53 @@ SECTION:MEDIA QUERIES
 ======================================*/
 /*Small devices like phones*/
 @media screen and (max-width: 575px) {
-  section#banner{
-    height: 70vh;
+  h3.section-title {
+    font-size: 1rem;
+  }
+
+  h4.service-title {
+    font-size: 0.8rem;
   }
 
   section#banner img#logo {
-    margin-top: 5.5rem;
-    margin-bottom: 2rem;
+    max-width: 2rem;
+    max-height: 2rem;
+  }
+
+  section#banner img#mouse-click{
+    max-width: 1rem;
+    max-height: 1rem;
   }
 
   section#banner h1 {
-    line-height: 2.2rem;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
   }
 
   section#banner h2 {
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
+    font-size: 0.5rem;
   }
 }
 
 /*Medium devices like tablets*/
 @media screen and (min-width: 768px) and (max-width: 991.98px){
-  section#banner {
-    height: 70vh;
-  }
-
-  section#banner img#logo {
-    margin-top: 12.5rem;
-    margin-bottom: 1.6rem;
-  }
-    
   section#banner h1 {
-    line-height: 4rem;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    line-height: 3rem;
+    font-size: 2rem;
   }
 
   section#banner h2 {
-    font-size: 1.5rem;
-    margin-bottom: 5rem;
+    font-size: 1rem;
+  }
+
+  section#banner img#logo {
+    max-width: 4rem;
+    max-height: 4rem;
+  }
+
+  section#banner img#mouse-click {
+    max-width: 3rem;
+    max-height: 3rem;
   }
 }
 
