@@ -7,12 +7,17 @@ body{
 
 h3.section-title{
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 input.form-control:focus,
 textarea.form-control:focus {
   border-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.6);
+}
+
+p{
+  font-weight: 400;
 }
 
 
@@ -34,11 +39,14 @@ section#banner img#logo{
 section#banner h1{
   line-height: 4rem;
   font-size: 2.5rem;
+  font-weight: 700;
 }
 
 section#banner h2{
   font-size: 1rem;
   margin-bottom: 3.3rem;
+  font-weight: 500;
+  text-shadow: 1rem 1rem rgba(255, 255, 255, 0);
 }
 
 /*====================================
@@ -48,6 +56,10 @@ section#services{
   background-image: url('./../assets/backgrounds/s_image.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+section#services p{
+  text-shadow: 2rem 2rem rgba(255, 255, 255, 0);
 }
 
 /*====================================
