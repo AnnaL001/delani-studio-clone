@@ -28,11 +28,6 @@ textarea.form-control:focus {
   color: rgb(33, 37, 41) !important;
 }
 
-.form-floating>.form-control:focus~label,
-.form-floating>.form-control:not(:placeholder-shown)~label{
-  color: rgb(255, 255, 255) !important;
-}
-
 p{
   font-weight: 400;
 }
