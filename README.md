@@ -1,6 +1,7 @@
 # DELANI STUDIO CLONE
 #### A web application clone of Delani Studio,
 #### By **Lynn Nyangon**
+![An image of the web application](./assets/webapp.png)
 ## Description
 This is a web application clone of Delani Studio. It comprises of information about the company, services offered and a detailed description of the each, work/projects done by the company, a contact us form and social media accounts' links for interested parties to reach out to the company. In addition to that, there's form validation and tracking of messages sent by interested parties via the contact us form, using Mailchimp.
 ## Setup/Installation Requirements
