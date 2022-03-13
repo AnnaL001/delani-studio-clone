@@ -34,7 +34,7 @@ textarea.form-control:focus {
 }
 
 p{
-  font-weight: 400;
+  font-weight: 500;
 }
 
 
@@ -64,7 +64,7 @@ section#services{
 }
 
 section#services p{
-  text-shadow: 5rem 5rem rgba(255, 255, 255, 0);
+  text-shadow: 6rem 6rem rgba(255, 255, 255, 0);
 }
 
 /*====================================
