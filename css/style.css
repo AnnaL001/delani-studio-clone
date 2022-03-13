@@ -2,7 +2,7 @@
 UTILITIES
 ======================================*/
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h3.section-title{
@@ -34,7 +34,7 @@ textarea.form-control:focus {
 }
 
 p{
-  font-weight: 500;
+  font-weight: 400;
 }
 
 
@@ -97,7 +97,7 @@ section#portfolio div#project-name-8{
 }
 
 section#portfolio p{
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /*====================================
