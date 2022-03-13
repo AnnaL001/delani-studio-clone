@@ -94,6 +94,26 @@ section#what-we-do div#product-mgmt-service-description{
 }
 
 /*====================================
+SECTION:PORTFOLIO
+======================================*/
+section#portfolio div#project-name-1,
+section#portfolio div#project-name-2,
+section#portfolio div#project-name-3,
+section#portfolio div#project-name-4, 
+section#portfolio div#project-name-5, 
+section#portfolio div#project-name-6,
+section#portfolio div#project-name-7,
+section#portfolio div#project-name-8{
+  display: none;
+  box-shadow: 8rem 8rem rgba(255, 255, 255, 0);
+  z-index: 4;
+}
+
+section#portfolio p{
+  font-weight: 600;
+}
+
+/*====================================
 SECTION:CONTACT US
 ======================================*/
 section#contact-us{
