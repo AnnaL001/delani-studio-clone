@@ -1,21 +1,21 @@
 /*====================================
 UTILITIES
 ======================================*/
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
 
-h3.section-title{
+h3.section-title {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-h4.service-title{
+h4.service-title {
   font-size: 1rem;
   font-weight: 600;
 }
 
-input.form-control{
+input.form-control {
   background-color: transparent;
 }
 
@@ -25,7 +25,7 @@ textarea.form-control:focus {
   box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.6);
 }
 
-.form-floating>.form-control:-webkit-autofill~label{
+.form-floating>.form-control:-webkit-autofill~label {
   color: rgb(33, 37, 41) !important;
 }
 
@@ -33,7 +33,7 @@ textarea.form-control:focus {
   color: rgb(33, 37, 41) !important;
 }
 
-p{
+p {
   font-weight: 400;
 }
 
@@ -41,13 +41,13 @@ p{
 /*====================================
 SECTION:BANNER
 ======================================*/
-section#banner h1{
+section#banner h1 {
   line-height: 4rem;
   font-size: 2.3rem;
   font-weight: 700;
 }
 
-section#banner h2{
+section#banner h2 {
   font-size: 1rem;
   font-weight: 600;
   text-shadow: 2.5rem 2.5rem rgba(255, 255, 255, 0);
@@ -57,26 +57,26 @@ section#banner h2{
 /*====================================
 SECTION:SERVICES
 ======================================*/
-section#services{
+section#services {
   background-image: url('./../assets/backgrounds/s_image.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
-section#services p{
+section#services p {
   text-shadow: 6rem 6rem rgba(255, 255, 255, 0);
 }
 
 /*====================================
 SECTION:WHAT WE DO
 ======================================*/
-section#what-we-do p{
+section#what-we-do p {
   font-size: 0.9rem;
 }
 
 section#what-we-do div#design-service-description,
 section#what-we-do div#dev-service-description,
-section#what-we-do div#product-mgmt-service-description{
+section#what-we-do div#product-mgmt-service-description {
   display: none;
 }
 
@@ -90,31 +90,31 @@ section#portfolio div#project-name-4,
 section#portfolio div#project-name-5, 
 section#portfolio div#project-name-6,
 section#portfolio div#project-name-7,
-section#portfolio div#project-name-8{
+section#portfolio div#project-name-8 {
   display: none;
   box-shadow: 8rem 8rem rgba(255, 255, 255, 0);
   z-index: 4;
 }
 
-section#portfolio p{
+section#portfolio p {
   font-weight: 500;
 }
 
 /*====================================
 SECTION:CONTACT US
 ======================================*/
-section#contact-us{
+section#contact-us {
   background-image: url('./../assets/backgrounds/c_image.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
-section#contact-us textarea.message-box{
+section#contact-us textarea.message-box {
   height: 15rem;
 }
 
 section#contact-us input.form-control,
-section#contact-us textarea.form-control{
+section#contact-us textarea.form-control {
   background-color: transparent;
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
@@ -139,7 +139,7 @@ SECTION:MEDIA QUERIES
     max-height: 2rem;
   }
 
-  section#banner img#mouse-click{
+  section#banner img#mouse-click {
     max-width: 1rem;
     max-height: 1rem;
   }
