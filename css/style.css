@@ -35,6 +35,7 @@ textarea.form-control:focus {
 
 p {
   font-weight: 400;
+  font-size: 1rem;
 }
 
 
@@ -134,6 +135,10 @@ SECTION:MEDIA QUERIES
     font-size: 0.8rem;
   }
 
+  p {
+    font-size: 0.5rem;
+  }
+
   section#banner img#logo {
     max-width: 2rem;
     max-height: 2rem;
@@ -156,6 +161,10 @@ SECTION:MEDIA QUERIES
 
 /*Medium devices like tablets*/
 @media screen and (min-width: 768px) and (max-width: 991.98px){
+  p {
+    font-size: 0.8rem;
+  }
+
   section#banner h1 {
     line-height: 3rem;
     font-size: 2rem;
