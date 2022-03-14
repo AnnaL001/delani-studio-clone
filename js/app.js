@@ -115,14 +115,11 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 });
 
 //Handling input from contact us form
-$("form#contact-form").on("submit",function(event){
-  //Prevent form submission
-  event.preventDefault();
-
+$("form#contact-form").on("submit",function(){
   // Capture input
-  var name = $("input#name").val();
-  var email = $("input#email").val();
-  var message = $("textarea#message").val();
+  var name = $("input[name=NAME]").val();
+  var email = $("input[name=EMAIL]").val();
+  var message = $("textarea[name=MESSAGE]").val();
   console.log(name, email, message);
 
   processFormInputs(name, email, message);
