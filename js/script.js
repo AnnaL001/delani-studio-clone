@@ -38,7 +38,7 @@ const validateMessage = (inputMessage) => {
   if(/^\D\w+(\W+)*/.test(inputMessage)){
     isValid = true;
   } else {
-    createErrorAlert("Message should contain one or more sentences");
+    createErrorAlert("Message should contain one or more word/sentences");
   }
 
   return isValid;
