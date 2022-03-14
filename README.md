@@ -1,6 +1,6 @@
 # DELANI STUDIO CLONE
 
-#### A web application clone of Delani Studio,
+#### A web application clone of Delani Studio
 
 #### By **Lynn Nyangon**
 
