@@ -25,7 +25,7 @@ https://annal001.github.io/delani-studio-clone/
 
 - Bootstrap - CSS Framework with predefined styles to speed up development time.
 - jQuery - JavaScript library that allows for DOM Manipulation with less boilerplate code.
-- Mailchimp - Track user's email and messages 
+- Mailchimp - Track user's emails and messages 
 
 ## Technologies Used
 
