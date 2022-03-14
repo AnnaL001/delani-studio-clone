@@ -1,7 +1,9 @@
 // Form validation
 function processFormInputs(inputName, inputEmail, inputMessage, event){
   if(validateName(inputName) && validateEmail(inputEmail) && validateMessage(inputMessage)){
+    event.target.submit();
     createSuccessAlert(`${inputName} we have received your message. Thank you for reaching out to us`);
+    event.target.reset();
   }else{
     // Prevent form submission
     event.preventDefault();

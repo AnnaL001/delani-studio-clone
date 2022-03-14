@@ -123,4 +123,5 @@ $("form#contact-form").on("submit",function(event){
   console.log(name, email, message);
 
   processFormInputs(name, email, message, event);
-})
+  $(this).reset();
+});
