@@ -1,9 +1,11 @@
 // Form validation
-function processFormInputs(inputName, inputEmail, inputMessage){
+function processFormInputs(inputName, inputEmail, inputMessage, event){
   if(validateName(inputName) && validateEmail(inputEmail) && validateMessage(inputMessage)){
     createSuccessAlert(`${inputName} we have received your message. Thank you for reaching out to us`);
+  }else{
+    // Prevent form submission
+    event.preventDefault();
   }
-  
 }
 
 const validateName = (inputName) => {
