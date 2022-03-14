@@ -1,6 +1,6 @@
 # DELANI STUDIO CLONE
 
-#### A web application clone of Delani Studio,
+#### A web application clone of Delani Studio
 
 #### By **Lynn Nyangon**
 
@@ -17,6 +17,7 @@ A web application clone of Delani Studio that comprises of information about the
 - To get the web application's code on your laptop/computer, navigate to the 'Code' button in the main page of master branch to download the ZIP file or get the link to clone the repoistory.
 - Once on the laptop/computer, you can view or edit the code using a text editor or Integrated Development Environment(IDE).
 - For installation of current versions of dependencies; Bootstrap or JQuery, you can replace the already included Bootstrap or jQuery with the current versions.
+- For integration with Mailchimp update the link in the form action attribute, with the one you'll be provided with in your Mailchimp account.
 - Otherwise, to view the web application navigate to the link below <br>
 https://annal001.github.io/delani-studio-clone/
 
@@ -24,6 +25,7 @@ https://annal001.github.io/delani-studio-clone/
 
 - Bootstrap - CSS Framework with predefined styles to speed up development time.
 - jQuery - JavaScript library that allows for DOM Manipulation with less boilerplate code.
+- Mailchimp - Track user's emails and messages 
 
 ## Technologies Used
 
