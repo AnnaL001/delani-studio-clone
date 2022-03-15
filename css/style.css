@@ -75,6 +75,12 @@ section#what-we-do p {
   font-size: 0.9rem;
 }
 
+section#what-we-do div#design-service,
+section#what-we-do div#dev-service,
+section#what-we-do div#product-mgmt-service{
+  cursor: pointer;
+}
+
 section#what-we-do div#design-service-description,
 section#what-we-do div#dev-service-description,
 section#what-we-do div#product-mgmt-service-description {
